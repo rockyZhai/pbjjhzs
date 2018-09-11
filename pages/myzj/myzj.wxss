@@ -1,0 +1,36 @@
+/*pages/myzj/myzj.wxss*/
+page{
+  background-color: #f7f6fc;
+}
+.box{
+  margin-top: 32rpx;
+}
+.box .nameAndPhone .name{
+  height: 84rpx;
+  border: 1px solid #e0e0e0;
+  padding-left: 32rpx;
+  background-color: #fff;
+}
+.box .nameAndPhone .phone{
+  border-top: none;
+}
+.box .suggestion{
+  margin-top: 32rpx;
+  margin-bottom: 60rpx;
+  width: 100%;
+  overflow: hidden;
+}
+#suggestion{
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  padding-left: 32rpx;
+  padding-top:15rpx;
+}
+.box .submit button{
+  background-color: #ff3333;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 2px;
+  width:91.11%;
+}

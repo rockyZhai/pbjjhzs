@@ -1,0 +1,33 @@
+{
+  "navigationBarTitleText": "彭埠经济合作社",
+  "tabBar": {
+    "selectedColor": "#33cccc",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/MQindex/index",
+        "text": "首页",
+        "iconPath": "pages/images/index_select.png",
+        "selectedIconPath": "pages/images/index.png"
+      },
+      {
+        "pagePath": "pages/MQgame/index",
+        "text": "游戏记录",
+        "iconPath": "pages/images/game_select.png",
+        "selectedIconPath": "pages/images/game.png"
+      },
+      {
+        "pagePath": "pages/MQmy/index",
+        "text": "我的",
+        "iconPath": "pages/images/my_select.png",
+        "selectedIconPath": "pages/images/my.png"
+      },
+      {
+        "pagePath": "pages/MQquestion/index",
+        "text": "常见问题",
+        "selectedIconPath": "pages/images/question.png",
+        "iconPath": "pages/images/question_select.png"
+      }
+    ]
+  }
+}

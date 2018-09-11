@@ -1,0 +1,30 @@
+<!-- pages/lxwm/lxwm.wxml -->
+<view>
+  <view class='button'>
+    <button>在线咨询</button>
+  </view>
+  <view class='phoneAndAdress'>
+    <view class='phone'>
+      电话：{{phoneNumber}}
+    </view>
+    <image bindtap="makePhone" src='../images/phone.png'></image>
+  </view>
+  <view class='phoneAndAdress' style='border-top:none'>
+    <view class='adress phone'>
+      地址：浙江省杭州市-江干区-明月嘉苑二区
+    </view> 
+  </view>
+   <view class="page-section page-section-gap">
+    <map
+      id="myMap"
+      style="width: 100%;"
+      latitude="{{latitude}}"
+      longitude="{{longitude}}"
+      markers="{{markers}}"
+      covers="{{covers}}"
+      show-location
+    >
+    </map>
+  </view>
+</view>
+ 

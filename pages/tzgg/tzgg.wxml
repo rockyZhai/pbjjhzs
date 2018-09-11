@@ -1,0 +1,22 @@
+<!--pages/tzgg/tzgg.wxml-->
+<view class='zwgk_menu' bindtap='click_tz'>
+  <image src='../images/zwgk_1.png'></image>
+  <view class='right'>
+    <view class='right_top'>村政府2018年放假通知</view>
+    <view class='right_cen'>2018-08-25</view>
+  </view>
+</view>
+<view class='zwgk_menu'>
+  <image src='../images/zwgk_2.png'></image>
+  <view class='right'>
+    <view class='right_top'>关于社保医保的相关通知</view>
+    <view class='right_cen'>2018-08-30</view>
+  </view>
+</view>
+<view class='zwgk_menu'>
+  <image src='../images/zwgk_2.png'></image>
+  <view class='right'>
+    <view class='right_top'>关于安置人员的相关事宜的相关通知</view>
+    <view class='right_cen'>2018-08-10</view>
+  </view>
+</view>

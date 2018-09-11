@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/myzj/myzj",
+    "pages/lxwm/lxwm",
+    "pages/tzgg/tzgg",
+    "pages/tzxq/tzxq",
+    "pages/zwgk/zwgk",
+    "pages/djhd/djhd",
+    "pages/xghd/xghd"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "彭埠经济合作社",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#ff3333",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "pages/images/index_select.png",
+        "selectedIconPath": "pages/images/index.png"
+      },
+      {
+        "pagePath": "pages/myzj/myzj",
+        "text": "民意征集",
+        "iconPath": "pages/images/game_select.png",
+        "selectedIconPath": "pages/images/game.png"
+      },
+      {
+        "pagePath": "pages/lxwm/lxwm",
+        "text": "联系我们",
+        "iconPath": "pages/images/my_select.png",
+        "selectedIconPath": "pages/images/my.png"
+      }
+    ]
+  }
+}

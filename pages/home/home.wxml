@@ -1,0 +1,100 @@
+<!-- pages/MQindex/index.wxml 12 -->
+<view class='model' hidden='{{APPHid}}'>
+    <view class='model_cen APP_cen'>
+    <view class='titImg'>
+    <image src='../images/tit.png'></image>
+    </view>
+    <view>小程序要获取您的头像，昵称等信息才可以进行正常操作</view>
+    <!-- <text bindtap='Qxkksq'>取消</text> -->
+    <button type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo" >好的</button>
+    </view>
+</view>
+
+<view class="container">
+  <view class="userinfo">
+    <swiper indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+      <block wx:for="{{imgUrls}}" wx:key="item">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="150"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='search'>
+    <image src='../images/search.png'></image>
+    <view class='input_box'>
+      <input placeholder='搜索'></input>
+    </view>   
+  </view>
+  <view class='menu'>
+    <view bindtap='tzgg'>
+      <image src='../images/tzgg.png'></image>
+      <text>通知公告</text>
+    </view>
+    <view bindtap='zwgk'>
+      <image src='../images/zwgk.png'></image>
+      <text>政务公开</text>
+    </view>
+    <view bindtap='djhd'>
+      <image src='../images/djhd.png'></image>
+      <text>党建活动</text>
+    </view>
+    <view bindtap='xghd'>
+      <image src='../images/xgzc.png'></image>
+      <text>相关活动</text>
+    </view>
+  </view>
+</view>  
+<view class='tzgg'>
+  <view>—— 通知公告 ——</view>
+  <image class='hdgq' src='../images/hdgq.png'></image>
+  <image class='hdgq' src='../images/kdfj.png'></image>
+  <image class='hdgq' src='../images/2018.png'></image>
+</view>
+<view class='zwgk'>
+  <view>—— 政务公开 ——</view>
+  <view class='zwgk_menu'>
+    <image src='../images/zwgk_1.png'></image>
+    <view class='right'>
+      <view class='right_top'>农村扶贫振兴项目宣传板</view>
+      <view class='right_cen'>2018-08-25</view>
+    </view>
+  </view>
+  <view class='zwgk_menu'>
+    <image src='../images/zwgk_2.png'></image>
+    <view class='right'>
+      <view class='right_top'>清新绿色乡村道路建设</view>
+      <view class='right_cen'>2018-08-30</view>
+    </view>
+  </view>
+</view>
+<view class='djhd'>
+  <view>—— 党建活动 ——</view>
+  <view class='djhd_xx'>
+    <view class='djhd_fxx'>
+      <image src='../images/djhd1.png'></image>
+      <view class='djhd_tt'>彭埠党员宣讲会</view>
+    </view>
+    <view class='djhd_fxx'>
+      <image src='../images/djhd2.png'></image>
+      <view class='djhd_tt'>党员清洁日常活动</view>
+    </view>
+  </view>
+  <view class='djhd_xx'>
+    <view class='djhd_fxx'>
+      <image src='../images/djhd3.png'></image>
+      <view class='djhd_tt'>老外入党大会</view>
+    </view>
+    <view class='djhd_fxx'>
+      <image src='../images/djhd4.png'></image>
+      <view class='djhd_tt'>彭埠党员集体收看新闻</view>
+    </view>
+  </view>
+</view>
+<view class='xgzc'>
+  <view>—— 相关章程 ——</view>
+  <view class='xgzc_tt xgzc_tt1'>中国共产党章程</view>
+  <view class='xgzc_tt xgzc_tt2'>共产党宣言</view>
+  <view class='xgzc_tt xgzc_tt3'>中国共产党十九大报告双语全文</view>  
+</view>

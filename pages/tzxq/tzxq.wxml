@@ -1,0 +1,6 @@
+<!--pages/tzxq/tzxxq.wxml-->
+<view class='tit'>{{tit}}</view>
+<view class='time'>2018-08-28</view>
+<view class='img'>
+  <image src='../images/zwgk_1.png'></image>
+</view>

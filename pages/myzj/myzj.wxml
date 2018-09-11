@@ -1,0 +1,16 @@
+<!-- pages/myzj/myzj.wxml -->
+<view class='box'>
+  <view class='nameAndPhone'>
+    <input class='name' type='text' placeholder='姓名：' bindinput='name'></input>
+  </view>
+  <view class='nameAndPhone'>
+    <input class='name phone' type='text' placeholder='手机：'></input>
+  </view>
+  <view class='suggestion nameAndPhone'>
+    <textarea maxlength='150' type='text' id='suggestion' placeholder='意见：'  ></textarea>
+  </view>
+  <view class='submit'>
+    <button>提交</button>
+  </view>
+</view>
+
